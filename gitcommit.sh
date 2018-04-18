@@ -1,6 +1,3 @@
 git add -A
-message = "\""
-message .= $1
-message .= "\""
-git commit -m message
+git commit -m "\"$1\""
 git push origin master
